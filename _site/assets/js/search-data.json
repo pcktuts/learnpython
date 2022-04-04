@@ -1,0 +1,1448 @@
+{"0": {
+    "doc": "Intro",
+    "title": "Introduction",
+    "content": " ",
+    "url": "/learnpython/intro/#introduction",
+    "relUrl": "/intro/#introduction"
+  },"1": {
+    "doc": "Intro",
+    "title": "What can you do with a programming language?",
+    "content": ". | Perform calculations with very large numbers in seconds. | Read/Create/Write/Delete files in a system. | Recieve or send data to a remote computer over network. | Store the results as files or in a database such as MySQL. | . ",
+    "url": "/learnpython/intro/#what-can-you-do-with-a-programming-language",
+    "relUrl": "/intro/#what-can-you-do-with-a-programming-language"
+  },"2": {
+    "doc": "Intro",
+    "title": "What kind of calculations?",
+    "content": ". | operations that are built into the language. | operations that we as a programmer define. | . computers can only do what you tell them to do. ",
+    "url": "/learnpython/intro/#what-kind-of-calculations",
+    "relUrl": "/intro/#what-kind-of-calculations"
+  },"3": {
+    "doc": "Intro",
+    "title": "Types of knwoledge",
+    "content": ". | Declarative knwoledge - Statements of fact . | You can learn Python for free from our online class. | . | Imperative knowledge - How to do it . | Join for the class | Attend the class regularly | Practice the topics and problems. | You will learn Python. | . | . ",
+    "url": "/learnpython/intro/#types-of-knwoledge",
+    "relUrl": "/intro/#types-of-knwoledge"
+  },"4": {
+    "doc": "Intro",
+    "title": "What is an Algorithm?",
+    "content": "An algorithm is a set of well-defined instructions in sequence to solve a problem. Sample algorithm for adding two numbers . Step 1: Start Step 2: Declare variables num1, num2 and sum. Step 3: Read values num1 and num2. Step 4: Add num1 and num2 and assign the result to sum. sum←num1+num2 Step 5: Display sum Step 6: Stop . ",
+    "url": "/learnpython/intro/#what-is-an-algorithm",
+    "relUrl": "/intro/#what-is-an-algorithm"
+  },"5": {
+    "doc": "Intro",
+    "title": "Intro",
+    "content": " ",
+    "url": "/learnpython/intro/",
+    "relUrl": "/intro/"
+  },"6": {
+    "doc": "Python Home",
+    "title": "Python Introduction",
+    "content": " ",
+    "url": "/learnpython/python-home/#python-introduction",
+    "relUrl": "/python-home/#python-introduction"
+  },"7": {
+    "doc": "Python Home",
+    "title": "What is Python?",
+    "content": "Python is a dynamically typed intrepreted programming language created by Guido van Rossum, and released in 1991. We can use Python for: . | web development (server-side). | desktop software development. | data science and scientific computing. | to write scripts. | . ",
+    "url": "/learnpython/python-home/#what-is-python",
+    "relUrl": "/python-home/#what-is-python"
+  },"8": {
+    "doc": "Python Home",
+    "title": "Some features of Python compared to other languages",
+    "content": ". | Python was designed as a beginner friendly language, syntax of the language is very close to English language. | Python uses new lines to end a statements, other languages uses ; for that | Python uses indendation using whitespace to define scope instead of { } which are used in many other programming languages. | . In Javascript . function greet() { return \"Hello world!\"; } . In Python . def greet(): return \"Hello world\" # Note there is no semicolon needed here. This will not work . def greet(): return \"Hello world\" . ",
+    "url": "/learnpython/python-home/#some-features-of-python-compared-to-other-languages",
+    "relUrl": "/python-home/#some-features-of-python-compared-to-other-languages"
+  },"9": {
+    "doc": "Python Home",
+    "title": "Python Home",
+    "content": " ",
+    "url": "/learnpython/python-home/",
+    "relUrl": "/python-home/"
+  },"10": {
+    "doc": "Install Python",
+    "title": "Installing Python",
+    "content": " ",
+    "url": "/learnpython/install-python/#installing-python",
+    "relUrl": "/install-python/#installing-python"
+  },"11": {
+    "doc": "Install Python",
+    "title": "Installing Python for windows",
+    "content": "Python is an opensource programming lanugage which can be downloaded freely from internet. The official web site of Python is https://www.python.org/ . The download page for Windows https://www.python.org/downloads/windows/ . Checking whether Python has been installed correctly. Open your command prompt in windows and type this command and press enter. C:\\Users\\Krishnadas&gt;py --version . This will output something like this, version number can be different depending upon the version you install. Python 3.9.1 . ",
+    "url": "/learnpython/install-python/#installing-python-for-windows",
+    "relUrl": "/install-python/#installing-python-for-windows"
+  },"12": {
+    "doc": "Install Python",
+    "title": "Installing a code editor",
+    "content": "What is a code editor? . | It is specially designed for programming. | It provides syntax highlighting over plain notepad kind of applications. | It provides autocomplete features for many commonly used functions in a particular programming language. | Many code editors provide extra plugins/extensions which can be installed to add more features to that editor. | . Some of the commonly used code editors for Python . | Vscode | SublimeText | Pycharm Community editon | Atom | . ",
+    "url": "/learnpython/install-python/#installing-a-code-editor",
+    "relUrl": "/install-python/#installing-a-code-editor"
+  },"13": {
+    "doc": "Install Python",
+    "title": "Running python from commandline",
+    "content": "Python file extension must be .py . On Windows Enable Show File Extensions. Watch the below video if you want to know how to do that. Running a python file named main.py from command line in Windows. | Create a file named main.py | Add the below code to it print(\"Hello world!\") . | Execute the program C:\\Users\\Krishnadas&gt;py main.py #windows path where file is created $python main.py #linux/unix . | This will output Hello World! . | . ",
+    "url": "/learnpython/install-python/#running-python-from-commandline",
+    "relUrl": "/install-python/#running-python-from-commandline"
+  },"14": {
+    "doc": "Install Python",
+    "title": "To run and test short codes you can use Python’s inbuilt command line, type the below command in yout command prompt",
+    "content": "This is called REPL, Read Evaluate Print Loop. You can type a valid python command and after pressing enter it will be executed. If it is a block of code it will be executed once block is completed. python-tutorials :✗ python # For Windows type py Python 3.9.1 (v3.9.1:1e5d33e9b9, Dec 7 2020, 12:10:52) [Clang 6.0 (clang-600.0.57)] on darwin Type \"help\", \"copyright\", \"credits\" or \"license\" for more information. &gt;&gt;&gt; print(\"Hi\") Hi &gt;&gt;&gt; exit() # Type this to exit from python shell or Ctrl + D . Video tutorial about installing and running Python on Windows . ",
+    "url": "/learnpython/install-python/#to-run-and-test-short-codes-you-can-use-pythons-inbuilt-command-line-type-the-below-command-in-yout-command-prompt",
+    "relUrl": "/install-python/#to-run-and-test-short-codes-you-can-use-pythons-inbuilt-command-line-type-the-below-command-in-yout-command-prompt"
+  },"15": {
+    "doc": "Install Python",
+    "title": "Install Python",
+    "content": " ",
+    "url": "/learnpython/install-python/",
+    "relUrl": "/install-python/"
+  },"16": {
+    "doc": "Types of Errors",
+    "title": "Types of Errors",
+    "content": ". | Syntax Error | Runtime Error | Semantic Error | . ",
+    "url": "/learnpython/types-of-errors/",
+    "relUrl": "/types-of-errors/"
+  },"17": {
+    "doc": "Types of Errors",
+    "title": "Syntax Error",
+    "content": "Syntax is rules of the programming lanugage such as which character are valid and which characters are not, Like the grammar in the English. | If there is any syntax error the code is not going to run | . In the below example we are missing the closing \" double quotes which will throw the syntax error. ",
+    "url": "/learnpython/types-of-errors/#syntax-error",
+    "relUrl": "/types-of-errors/#syntax-error"
+  },"18": {
+    "doc": "Types of Errors",
+    "title": "Run Time error",
+    "content": ". | If there is a run time error some part of the code may give an output | . ",
+    "url": "/learnpython/types-of-errors/#run-time-error",
+    "relUrl": "/types-of-errors/#run-time-error"
+  },"19": {
+    "doc": "Types of Errors",
+    "title": "Semantic Error",
+    "content": ". | This can be the most difficult to fix. There won’t be any error actually. But it might not be what the programmer intended. | . ",
+    "url": "/learnpython/types-of-errors/#semantic-error",
+    "relUrl": "/types-of-errors/#semantic-error"
+  },"20": {
+    "doc": "Types of Errors",
+    "title": "In general what can happen if things goes wrong",
+    "content": ". | Program crashes, stops running | Program runs forever such as infinite loop. | Program gives an answer but different than expected | . Think about the syntax and semantics carefully while you write a program, Then only you will get the output what you intended . ",
+    "url": "/learnpython/types-of-errors/#in-general-what-can-happen-if-things-goes-wrong",
+    "relUrl": "/types-of-errors/#in-general-what-can-happen-if-things-goes-wrong"
+  },"21": {
+    "doc": "Hello World",
+    "title": "Writing your first program",
+    "content": "By convention the first program that you run while learning a new programming lanugage must be a Hello World program. ",
+    "url": "/learnpython/hello-world/#writing-your-first-program",
+    "relUrl": "/hello-world/#writing-your-first-program"
+  },"22": {
+    "doc": "Hello World",
+    "title": "Hello World",
+    "content": " ",
+    "url": "/learnpython/hello-world/",
+    "relUrl": "/hello-world/"
+  },"23": {
+    "doc": "Variables",
+    "title": "Variables",
+    "content": " ",
+    "url": "/learnpython/variables/",
+    "relUrl": "/variables/"
+  },"24": {
+    "doc": "Variables",
+    "title": "What is a variable?",
+    "content": "Variables are used to store a value. A variable can have a name and it’s value. We can access the value with the name of the variable. How to declare a variable in python . message = \"We are learning Python\" . Here message is the name of the variable and We are learning Python is the value of the variable. A variable can store multiple types of data such as strings, integers, floating point numbers etc. ",
+    "url": "/learnpython/variables/#what-is-a-variable",
+    "relUrl": "/variables/#what-is-a-variable"
+  },"25": {
+    "doc": "Variables",
+    "title": "Why we need variables?",
+    "content": "Consider this example where we print the message Hello world 4 times . print(\"Hello world\") print(\"Hello world\") print(\"Hello world\") print(\"Hello world\") . What if we need to change the word world with some other word say Python as per our current understanding we need to modify it in 4 places to make it work. It breaks the fundamental princple of software development called DRY. ",
+    "url": "/learnpython/variables/#why-we-need-variables",
+    "relUrl": "/variables/#why-we-need-variables"
+  },"26": {
+    "doc": "Variables",
+    "title": "What is DRY ?",
+    "content": "It means do not repeat yourself The DRY principle is stated as “Every piece of knowledge must have a single, unambiguous, authoritative representation within a system”. Let’s try our original code with variables. message = \"Hello World\" print(message) print(message) print(message) print(message) . Now if we need to change the World we need to change at only one single place where we declared the variable. This code is easy to manage compared to the previous one. ",
+    "url": "/learnpython/variables/#what-is-dry-",
+    "relUrl": "/variables/#what-is-dry-"
+  },"27": {
+    "doc": "Naming Variables",
+    "title": "Naming Variables",
+    "content": "There are some rules for defining variables . | A variable name must start with a letter or the underscore character | A variable name cannot start with a number | A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ) | Variable names are case-sensitive (message, Message and MEESAGE are three different variables) | . You don’t need to by heart it, We are going to learn some naming standards. Some valid variable names . greetmessage = \"Good morning\" greet_message = \"Good morning\" _greet_message = \"Good morning\" greetMessage = \"Good morning\" GreetMessage = \"Good morning\" . Some illegal variable names . Error, this code won’t run . greet message = \"Good morning\" 43greet_message = \"Good morning\" greet-message = \"Good morning\" . Assign Multiple Values . a, b, c = \"Python\", \"PHP\", \"Javascript\" . In the above example value of a is Python, value of b is PHP and value of c is Javascript. Assign same Value to Multiple Variables . When you write large programs or when you work as a team in a company, it is important that you must use some standards so that it will be easier for you and other team memebers to easily understand the code. Some of the commonly used variable naming conventions . | Snake casing | . Every new word is seperated with _(underscores). Python uses snake casing. first_name = \"John\" last_name = \"David\" . | Camel casing | . Every new word starts with a Capital letter except the starting word. Javascript is built with camel casing standard. firstName = \"John\" lastName = \"David\" . | Pascal casing | . First letter of every word starts with a capital letter. Microsoft dot net uses this casing as their standard. FirstName = \"John\" LastName = \"David\" . ",
+    "url": "/learnpython/naming-variables/",
+    "relUrl": "/naming-variables/"
+  },"28": {
+    "doc": "Meaningful Variables",
+    "title": "Meaningful Variables",
+    "content": "Look at the below code and uderstand how we can write meaningful variable names which will helps to understand the code better. Bad practice . p = \"Krishna\" x = 25 j = \"test@test.com\" . The above code is a valid python code but it is hard to understand what it really means. Let’s re write the code in such a way that it is easier for everyone to understand. Good practice . name = \"Krishna\" age = 25 email = \"test@test.com\" . In real projects a file may contain hundreds or thousands of lines where it will be difficult to understand names such as p, x, j but names such as name, age, email are easier to understand. ",
+    "url": "/learnpython/meaningful-variables/",
+    "relUrl": "/meaningful-variables/"
+  },"29": {
+    "doc": "Reassigning Variables",
+    "title": "Reassigning Variables",
+    "content": "In Python if you assign a variable you can change it’s value whenever needed. Also you can assign different type of value to that variable. Consider the below example. The data type such as(string, integer) also can be changed in Python when needed because Python is a dynamically typed programming lanugage. In other languages like c or java once you declare a variable as say integer you cannot reassign any other values other than integers. Such kind of languages are called statically typed programming languages. Consider the example in C programming lanugage. Error . int d = 3; d = \"Hello\"; // This will throw an error in C . Same example in Python . d = 3 d = \"Hello\" # This is will work in Python . ",
+    "url": "/learnpython/reassigning-variables/",
+    "relUrl": "/reassigning-variables/"
+  },"30": {
+    "doc": "Comments",
+    "title": "Comments",
+    "content": ". | Comments can be used to explain a code. | Python intrepreter ignores the comments by default. | Comments can be also used to create documentations for the software such as docstring. | As comments are like a notes you can write anything you want ie no need to worry about Python syntax inside a comment block. | . ",
+    "url": "/learnpython/comments/",
+    "relUrl": "/comments/"
+  },"31": {
+    "doc": "Comments",
+    "title": "Creating a comment in Python",
+    "content": "Comments can be also added after the code like this . ",
+    "url": "/learnpython/comments/#creating-a-comment-in-python",
+    "relUrl": "/comments/#creating-a-comment-in-python"
+  },"32": {
+    "doc": "Comments",
+    "title": "Multi line comments",
+    "content": "You can use the below syntax to create multi line comments in python. There is tripple quotes as opening and closing. You can use either double quotes or single quotes for this, Both are valid. ",
+    "url": "/learnpython/comments/#multi-line-comments",
+    "relUrl": "/comments/#multi-line-comments"
+  },"33": {
+    "doc": "Comments",
+    "title": "How can we avoid writing unecessary comments by meaningful code?",
+    "content": "Bad practice . x = \"Kochi\" # This is place u = \"Searching for a Job\" # This is employment status . Replace the above comments with meaningful code. Good practice . place = \"Kochi\" employment_status = \"Searching for a Job\" . In the above code we do not need to add comments as the code is self explanatory. ",
+    "url": "/learnpython/comments/#how-can-we-avoid-writing-unecessary-comments-by-meaningful-code",
+    "relUrl": "/comments/#how-can-we-avoid-writing-unecessary-comments-by-meaningful-code"
+  },"34": {
+    "doc": "Data Types",
+    "title": "Data Types",
+    "content": "Consider the following example . age = 20 # data type is integer name = \"Muhammed\" # data type is string score = 95.6 # data type is floating point number . Data type means the type of the value that a variable holds. In the above example variable age has a value of 20 and the data type of age is integer. The data type is automatically set when you declare a variable. We can set the data type as well. Below listed are the data types in Python. Makred in bold are the ones that we use most of the time. We will learn about the important data types in upcoming session. | Category | Data type | . | Text Type | str | . | Numeric Types | int, float, complex | . | Boolean Type | bool | . | Sequence Types | list, tuple, range | . | Mapping Type | dict | . | Set Types | set, frozenset | . | Binary Types | bytes, bytearray, memoryview | . To know the type of a variable you can use python’s inbuilt function like this. ",
+    "url": "/learnpython/data-types/",
+    "relUrl": "/data-types/"
+  },"35": {
+    "doc": "Numbers",
+    "title": "Numbers",
+    "content": "There are three numeric data types in python as listed below. Out of which we will discuss commonly used first two data types here. | int | float | complex | . Some valid integers and floating point variables . If you add quotes either single or double. It will not be numeric data type even though they are numbers. Let’s prove it by checking the type of that. You can give both positive and negative numbers in Python. Type conversion . ",
+    "url": "/learnpython/numbers/",
+    "relUrl": "/numbers/"
+  },"36": {
+    "doc": "Type Conversion",
+    "title": "Type Conversion",
+    "content": "Type conversion is the process of converting the data type of a value such as integer, float, string etc. There are two types of type conversion in Python. | Implicit Type Conversion | Explicit Type Conversion | . ",
+    "url": "/learnpython/type-conversion/",
+    "relUrl": "/type-conversion/"
+  },"37": {
+    "doc": "Type Conversion",
+    "title": "Implicit Type Conversion",
+    "content": "This is done by the Python intrepreter. In this example we take the difference of two variable which has different data types such as int and float but python automatically converted the result data type into float in order to prevent the data loss. ",
+    "url": "/learnpython/type-conversion/#implicit-type-conversion",
+    "relUrl": "/type-conversion/#implicit-type-conversion"
+  },"38": {
+    "doc": "Type Conversion",
+    "title": "Explicit Type Conversion",
+    "content": "Explicit type conversion is also known as type casting. We as a programmer do the type conversion here. We can use some of the inbuilt functions in python to do the explicit type conversion. You cannot convert all the values from one data type to another. Look at the below code. This code throws a run time error, and we got a partial output only. error . ",
+    "url": "/learnpython/type-conversion/#explicit-type-conversion",
+    "relUrl": "/type-conversion/#explicit-type-conversion"
+  },"39": {
+    "doc": "Type Conversion",
+    "title": "Points to note",
+    "content": ". | Implicit conversion is done by Python interpreter only. | Explicit type conversion is also known as type casting. | In Explicit type conversion you may loose some data such as if you convert a float into int you will lose the fractional part. | . ",
+    "url": "/learnpython/type-conversion/#points-to-note",
+    "relUrl": "/type-conversion/#points-to-note"
+  },"40": {
+    "doc": "Strings",
+    "title": "Strings",
+    "content": "Strings are sequence of characters surrounded by either single quotation marks ', or double quotation marks\". You can display a string using pythons inbuilt function called print(). In the below code we have used both single quotes and double quotes both are the same. Note the output doesn’t contain a single quote or double quote. ",
+    "url": "/learnpython/strings/",
+    "relUrl": "/strings/"
+  },"41": {
+    "doc": "Strings",
+    "title": "What if you want to include the quotes in the output?",
+    "content": "You can use double quotes and single quotes interchangably for that. Let’s look at the below example. ",
+    "url": "/learnpython/strings/#what-if-you-want-to-include-the-quotes-in-the-output",
+    "relUrl": "/strings/#what-if-you-want-to-include-the-quotes-in-the-output"
+  },"42": {
+    "doc": "Strings",
+    "title": "Create a string variable",
+    "content": " ",
+    "url": "/learnpython/strings/#create-a-string-variable",
+    "relUrl": "/strings/#create-a-string-variable"
+  },"43": {
+    "doc": "Strings",
+    "title": "Multi line strings",
+    "content": "You can also create multi line strings in python and assign it to a variable. Here we can use tripple double quotes \"\"\" or tripple single quotes ''' for that. Let’s see the example below. ",
+    "url": "/learnpython/strings/#multi-line-strings",
+    "relUrl": "/strings/#multi-line-strings"
+  },"44": {
+    "doc": "Strings",
+    "title": "Individual characters in a string can be accessed via index",
+    "content": "So what is an index? . Index for a string simply means the position of a particular character in a string. There is one important rule in programming that is, Index(or position) starts from 0 not from 1. Let’s understand what it actually means by the below example. greeting = \"Hi lpm\" . | Index 0 | Index 1 | Index 2 | Index 3 | Index 4 | Index 5 | . | H | i | whitespace | l | p | m | . Index can be accessed by using the square bracket [] syntax like this. To get the total number of characters in a string you can use Pythons inbuilt method called len(). ",
+    "url": "/learnpython/strings/#individual-characters-in-a-string-can-be-accessed-via-index",
+    "relUrl": "/strings/#individual-characters-in-a-string-can-be-accessed-via-index"
+  },"45": {
+    "doc": "Strings",
+    "title": "Points to note here",
+    "content": ". | The length of the string greeting is 6 | So the maximum index value will be 5 since index starts from 0 | . If you try to print an index which doesn’t exists you will get an error. error . ",
+    "url": "/learnpython/strings/#points-to-note-here",
+    "relUrl": "/strings/#points-to-note-here"
+  },"46": {
+    "doc": "Slicing Strings",
+    "title": "Slicing Strings",
+    "content": "Slicing means getting a portion of a particulr string. We can slice a string in various ways using the start position(index) and end position(index). A string can be sliced using a colon : between the start and end index. You can relate this to slicing a loaf of bread where we cut and take a portion of it. variable[start_index:end_index] . Get the characters from index 3 to index 7 (not included). In another way it can be think like this . | start from index 3 | get the 4(7 - 3) characters from index 3 | Total number of characters in the output: 7 - 3 = 4 | whitespace is also treated as a character. | . ",
+    "url": "/learnpython/slicing-strings/",
+    "relUrl": "/slicing-strings/"
+  },"47": {
+    "doc": "Slicing Strings",
+    "title": "Slice From the beginning of a String",
+    "content": "Get the characters from the start index to 5 (not included): . | Total number of characters: 5 - 0 = 5 | . ",
+    "url": "/learnpython/slicing-strings/#slice-from-the-beginning-of-a-string",
+    "relUrl": "/slicing-strings/#slice-from-the-beginning-of-a-string"
+  },"48": {
+    "doc": "Slicing Strings",
+    "title": "Slice to the End",
+    "content": "If we do not provide the end position, it will slice the string upto the end of that string. ",
+    "url": "/learnpython/slicing-strings/#slice-to-the-end",
+    "relUrl": "/slicing-strings/#slice-to-the-end"
+  },"49": {
+    "doc": "Slicing Strings",
+    "title": "Slicing with negative index",
+    "content": "Here onething to note the negative indexing starts from the end of the string backwards from index position -1. Let’s look at the below code, . | Index -6 is P | Index -2 is o which is not included | . ",
+    "url": "/learnpython/slicing-strings/#slicing-with-negative-index",
+    "relUrl": "/slicing-strings/#slicing-with-negative-index"
+  },"50": {
+    "doc": "Slicing Strings",
+    "title": "Reverse a string with extended slicing",
+    "content": "Slicing syntax has supported an optional third “step” or “stride” argument. It works by doing [begin:end:step] - by leaving begin and end off and specifying a step of -1, it reverses a string. ",
+    "url": "/learnpython/slicing-strings/#reverse-a-string-with-extended-slicing",
+    "relUrl": "/slicing-strings/#reverse-a-string-with-extended-slicing"
+  },"51": {
+    "doc": "Transforming Strings",
+    "title": "Transforming Strings",
+    "content": "We can transform strings using the inbuilt functions in python. Some of the commonly used string functions are listed below. In Python strings are immutable means once you define it you cannot change it. If you try to change it directly it will result in an error. One possible solution is to create new variable and change it something like this . ",
+    "url": "/learnpython/transforming-strings/",
+    "relUrl": "/transforming-strings/"
+  },"52": {
+    "doc": "Transforming Strings",
+    "title": "If strings are immutable how python’s inbuilt functions are able to change it?",
+    "content": "Let’s dig deeper and understand it. Any variable that you create in Python has a unique id. We can use the inbuilt method called id() to find it’s id. It is the memory memory address of that variable. ",
+    "url": "/learnpython/transforming-strings/#if-strings-are-immutable-how-pythons-inbuilt-functions-are-able-to-change-it",
+    "relUrl": "/transforming-strings/#if-strings-are-immutable-how-pythons-inbuilt-functions-are-able-to-change-it"
+  },"53": {
+    "doc": "Transforming Strings",
+    "title": "Why strings are immutable in Python?",
+    "content": "In Python, strings are made immutable so that programmers cannot alter the contents of it accidently. This will helps to write cleaner code with lesser bugs. ",
+    "url": "/learnpython/transforming-strings/#why-strings-are-immutable-in-python",
+    "relUrl": "/transforming-strings/#why-strings-are-immutable-in-python"
+  },"54": {
+    "doc": "Concatenate Strings",
+    "title": "Concatenate Strings",
+    "content": "Concatenate means combining strings. We can use the + operator for that. ",
+    "url": "/learnpython/concatenate-strings/",
+    "relUrl": "/concatenate-strings/"
+  },"55": {
+    "doc": "String formatting",
+    "title": "String formatting",
+    "content": "When you try to combine a string and a number it will result in an error as listed below. ",
+    "url": "/learnpython/string-format/",
+    "relUrl": "/string-format/"
+  },"56": {
+    "doc": "String formatting",
+    "title": "Solution 1: use Explicit type casting to solve the problem.",
+    "content": ". ",
+    "url": "/learnpython/string-format/#solution-1-use-explicit-type-casting-to-solve-the-problem",
+    "relUrl": "/string-format/#solution-1-use-explicit-type-casting-to-solve-the-problem"
+  },"57": {
+    "doc": "String formatting",
+    "title": "Solution 2: Combine strings and numbers by using the inbuilt format() method.",
+    "content": ". ",
+    "url": "/learnpython/string-format/#solution-2-combine-strings-and-numbers-by-using-the-inbuilt-format-method",
+    "relUrl": "/string-format/#solution-2-combine-strings-and-numbers-by-using-the-inbuilt-format-method"
+  },"58": {
+    "doc": "Escape characters",
+    "title": "Escape characters",
+    "content": "Escape characters allows us to include special characters while we print a string. To do this, simply add a backslash \\ before the character you want to escape. In the below code we tried to print single quote ' in the out put. But in python it has a special meaning so Python tried to close that string there because it was opened at the beginning. So now this became a syntax error. error . ",
+    "url": "/learnpython/escape-characters/",
+    "relUrl": "/escape-characters/"
+  },"59": {
+    "doc": "Escape characters",
+    "title": "Solution: Add an escape character",
+    "content": "When we add an escape character before a character, then python will not consider it as it’s syntax. It will print it exactly as it is. ",
+    "url": "/learnpython/escape-characters/#solution-add-an-escape-character",
+    "relUrl": "/escape-characters/#solution-add-an-escape-character"
+  },"60": {
+    "doc": "Escape characters",
+    "title": "Adding new lines in String",
+    "content": "We can add new lines in strings using \\n . ",
+    "url": "/learnpython/escape-characters/#adding-new-lines-in-string",
+    "relUrl": "/escape-characters/#adding-new-lines-in-string"
+  },"61": {
+    "doc": "Escape characters",
+    "title": "Adding tab in String",
+    "content": "We can add tab in strings using \\t . ",
+    "url": "/learnpython/escape-characters/#adding-tab-in-string",
+    "relUrl": "/escape-characters/#adding-tab-in-string"
+  },"62": {
+    "doc": "Escape characters",
+    "title": "What if we want to escape \\ itself?",
+    "content": "Suppose if we want \\ to be part of our output how we can do that?. We can put double \\\\ so that first \\ will be treated as an escape character so that the second one will be printed out. ",
+    "url": "/learnpython/escape-characters/#what-if-we-want-to-escape--itself",
+    "relUrl": "/escape-characters/#what-if-we-want-to-escape--itself"
+  },"63": {
+    "doc": "Escape characters",
+    "title": "Raw strings",
+    "content": "A raw string can be used by prefixing the string with r or R, which allows for backslashes to be included without the need to escape them. But if \\(backslash) comes at the end in raw string it will throw an error. ",
+    "url": "/learnpython/escape-characters/#raw-strings",
+    "relUrl": "/escape-characters/#raw-strings"
+  },"64": {
+    "doc": "String practice problems",
+    "title": "String practice problems",
+    "content": " ",
+    "url": "/learnpython/string-practice-problems/",
+    "relUrl": "/string-practice-problems/"
+  },"65": {
+    "doc": "String practice problems",
+    "title": "Problem 1:",
+    "content": "For a given string print the last 3 characters in reverse order. Example 1 : input (\"hello world\") -&gt; output (\"dlr\"). input_str = \"Hello world\" . required output . dlr . Example 2 : input (\"start coding js\") -&gt; output (\"sj \") Note the space character in the output. input_str = \"start coding js\" . required output . sj . ",
+    "url": "/learnpython/string-practice-problems/#problem-1",
+    "relUrl": "/string-practice-problems/#problem-1"
+  },"66": {
+    "doc": "String practice problems",
+    "title": "Problem 2:",
+    "content": "Given two strings, s1 and s2, create a new string by appending the length of s2 in the middle of s1 considering the length of s1 is even. s1 = \"play\" s2 = \"football\" . The length of s2 is 8 so the output becomes. required output . pl8ay . ",
+    "url": "/learnpython/string-practice-problems/#problem-2",
+    "relUrl": "/string-practice-problems/#problem-2"
+  },"67": {
+    "doc": "String practice problems",
+    "title": "Problem 3",
+    "content": "Given a string like below must give output like below. accept input from the console. Example1 : For a given input string aabceeetpp . required output . 2abc3et2p . Example2 : For a given input string kkpppzeeett . required output . 2k3pz3e2t . ",
+    "url": "/learnpython/string-practice-problems/#problem-3",
+    "relUrl": "/string-practice-problems/#problem-3"
+  },"68": {
+    "doc": "Booleans",
+    "title": "Booleans",
+    "content": "The python data type bool is used to store two values i.e True or False. Please note it is True not true similarly for false value it is False not false not surronded by quotes. ",
+    "url": "/learnpython/booleans/",
+    "relUrl": "/booleans/"
+  },"69": {
+    "doc": "Booleans",
+    "title": "When to use Booleans?",
+    "content": "Booleans can be used when there is a need to compare two or more values. When we compare two values it’s output will be a bool value. When we compare two or more values these are called a boolean expression. We will learn about comparison operators in the later sessions but for now let’s see some of them. ",
+    "url": "/learnpython/booleans/#when-to-use-booleans",
+    "relUrl": "/booleans/#when-to-use-booleans"
+  },"70": {
+    "doc": "Booleans",
+    "title": "Type casting values and variables to bool",
+    "content": "We can use the inbuilt bool() function to evaluate any value to check whether it is true or false. Most values are true. Let’s see the below example. Almost any value is True if it has some sort of content in it . Booleans are the basis for the conditional if else statements in any programming language. We will learn about if else statements in upcoming sessions. ",
+    "url": "/learnpython/booleans/#type-casting-values-and-variables-to-bool",
+    "relUrl": "/booleans/#type-casting-values-and-variables-to-bool"
+  },"71": {
+    "doc": "Operators",
+    "title": "Operators",
+    "content": "Like we perform an arithmetic operation on a calculator we can perform different kinds of operations with python. Python is not limited to just arithmetic operations. ",
+    "url": "/learnpython/operators/",
+    "relUrl": "/operators/"
+  },"72": {
+    "doc": "Operators",
+    "title": "In Python we have these different kinds of operators",
+    "content": ". | Arithmetic operators | Assignment operators | Comparison operators | Logical operators | Identity operators | Membership operators | Bitwise operators | . We will learn about the mostly used first 6 operators here. ",
+    "url": "/learnpython/operators/#in-python-we-have-these-different-kinds-of-operators",
+    "relUrl": "/operators/#in-python-we-have-these-different-kinds-of-operators"
+  },"73": {
+    "doc": "Operators",
+    "title": "1. Arithmetic Operators",
+    "content": "We can perform normal mathematical operations with python with values and numeric variables. ",
+    "url": "/learnpython/operators/#1-arithmetic-operators",
+    "relUrl": "/operators/#1-arithmetic-operators"
+  },"74": {
+    "doc": "Operators",
+    "title": "Assignment Operators",
+    "content": "We can assign values to variables using the assignment operator. Some of the commonly used ones are listed below. | Operator | How to use it | Alternative syntax | . | = | x = 10 | No alternative syntax | . | += | x += 10 | x = x + 10 | . | -= | x -= 10 | x = x - 10 | . | *= | x *= 10 | x = x * 10 | . | /= | x /= 10 | x = x / 10 | . | %= | x %= 10 | x = x % 10 | . | //= | x //= 10 | x = x // 10 | . | **= | x **= 10 | x = x ** 10 | . ",
+    "url": "/learnpython/operators/#assignment-operators",
+    "relUrl": "/operators/#assignment-operators"
+  },"75": {
+    "doc": "Operators",
+    "title": "Comparison Operators",
+    "content": "Comparison Operators are used to compare two values, these are commonly used in if else statements which we will learn later. Points to note: the output of the comparison operator will be always a boolean . | Operator | Name | How to use it | . | == | Equal | x == y | . | != | Not equal | x != y | . | &gt; | Greater than | x &gt; y | . | &lt; | Less than | x &lt; y | . | &gt;= | Greater than or equal to | x &gt;= y | . | &lt;= | Less than or equal to | x &lt;= y | . ",
+    "url": "/learnpython/operators/#comparison-operators",
+    "relUrl": "/operators/#comparison-operators"
+  },"76": {
+    "doc": "Operators",
+    "title": "Logical Operators",
+    "content": "We can combine multiple comparison operators with the below logical operators. Let’s see how it works. In Python we have three logical operators. | and | or | not | . ",
+    "url": "/learnpython/operators/#logical-operators",
+    "relUrl": "/operators/#logical-operators"
+  },"77": {
+    "doc": "Operators",
+    "title": "1. and operator",
+    "content": ". and operator will return True only if both condtions are True. It has 2 operands. Syntax . condition1 and condition2 . | condition1 | condition2 | output | . | True | True | True | . | True | False | False | . | False | True | False | . | False | False | False | . Example . ",
+    "url": "/learnpython/operators/#1-and-operator",
+    "relUrl": "/operators/#1-and-operator"
+  },"78": {
+    "doc": "Operators",
+    "title": "2. or operator",
+    "content": ". or operator will return True if one of the statements is true. It has 2 operands. Syntax . condition1 or condition2 . | condition1 | condition2 | output | . | True | True | True | . | True | False | True | . | False | True | True | . | False | False | False | . Example . ",
+    "url": "/learnpython/operators/#2-or-operator",
+    "relUrl": "/operators/#2-or-operator"
+  },"79": {
+    "doc": "Operators",
+    "title": "3. not operator",
+    "content": ". not operator will reverse the result, returns False if the result is True. It has only 1 operands. Syntax . not condition . | condition | output | . | True | False | . | False | True | . Example . ",
+    "url": "/learnpython/operators/#3-not-operator",
+    "relUrl": "/operators/#3-not-operator"
+  },"80": {
+    "doc": "Operators",
+    "title": "Membership Operators",
+    "content": "It is used to check if a sequence is present in an object. | Operator | Explanation | Example | . | in | Returns True if a sequence with the specified value is present in the object | x in y | . | not in | Returns True if a sequence with the specified value is not present in the object | x not in y | . ",
+    "url": "/learnpython/operators/#membership-operators",
+    "relUrl": "/operators/#membership-operators"
+  },"81": {
+    "doc": "Operators",
+    "title": "Example",
+    "content": " ",
+    "url": "/learnpython/operators/#example-3",
+    "relUrl": "/operators/#example-3"
+  },"82": {
+    "doc": "Conditionals if else",
+    "title": "Conditionals if else",
+    "content": "Programming can be used to perform certain actions based upon certain conditions. We use if else statements to perform such decision making actions in a program. Understanding if else is really important then only you can write real world applications. ",
+    "url": "/learnpython/conditionals-if-else/",
+    "relUrl": "/conditionals-if-else/"
+  },"83": {
+    "doc": "Conditionals if else",
+    "title": "Syntax",
+    "content": "if(boolean condition): #code to be executed if true else: #code to be executed if false . Consider few real life examples . | You can apply for a license if you are 18 years old | You can go abroad if you have a passport and a visa | We can watch the movie if we got 2 tickets else we can go to the park | . Now let’s try to convert the above statements into a python program . ",
+    "url": "/learnpython/conditionals-if-else/#syntax",
+    "relUrl": "/conditionals-if-else/#syntax"
+  },"84": {
+    "doc": "Conditionals if else",
+    "title": "Golden rule in Python - Indentation",
+    "content": "Python relies on Indentation(Whitespace) before a line to define a scope. Other languages uses curly brackets {} for that. Let’s examine the difference between if else in Javascript and Python . Javascript if else . Here we use curly {} brackets, So space ie indentation doesn’t matter, you can write code with any spaces as long as {} brackets are closed correctly. let x = 10; if(x &gt; 7) { console.log(\"x is greater\"); } else { console.log(\"x is lesser\"); } . ",
+    "url": "/learnpython/conditionals-if-else/#golden-rule-in-python---indentation",
+    "relUrl": "/conditionals-if-else/#golden-rule-in-python---indentation"
+  },"85": {
+    "doc": "Conditionals if else",
+    "title": "In Python indendation ie space matters, below code won’t run",
+    "content": ". error . ",
+    "url": "/learnpython/conditionals-if-else/#in-python-indendation-ie-space-matters-below-code-wont-run",
+    "relUrl": "/conditionals-if-else/#in-python-indendation-ie-space-matters-below-code-wont-run"
+  },"86": {
+    "doc": "Conditionals if else",
+    "title": "If we have multiple condition blocks we can use elif",
+    "content": "Some rules to note . | We can use any number of elif but there must be only one else | elif, else are optional in a if statement | Only one block of code is executed at a time | else block doesn’t need a condition | . ",
+    "url": "/learnpython/conditionals-if-else/#if-we-have-multiple-condition-blocks-we-can-use-elif",
+    "relUrl": "/conditionals-if-else/#if-we-have-multiple-condition-blocks-we-can-use-elif"
+  },"87": {
+    "doc": "Conditionals if else",
+    "title": "Syntax",
+    "content": "if condition1: print(\"condition1 is true\") elif condition2: print(\"condition2 is true\") else: print(\"both the above conditions are false\") . ",
+    "url": "/learnpython/conditionals-if-else/#syntax-1",
+    "relUrl": "/conditionals-if-else/#syntax-1"
+  },"88": {
+    "doc": "Conditionals if else",
+    "title": "Nested if else",
+    "content": "We can have if condition inside another if. Such kind of conditionals are called nested if . ",
+    "url": "/learnpython/conditionals-if-else/#nested-if-else",
+    "relUrl": "/conditionals-if-else/#nested-if-else"
+  },"89": {
+    "doc": "Conditionals if else",
+    "title": "The pass Statement",
+    "content": "if statement cannot be empty, but if you want to put it for empty for some reason you can use a pass statement. ",
+    "url": "/learnpython/conditionals-if-else/#the-pass-statement",
+    "relUrl": "/conditionals-if-else/#the-pass-statement"
+  },"90": {
+    "doc": "Conditionals if else",
+    "title": "Reserved Keywords",
+    "content": "In a computer language, a reserved word (also known as a reserved identifier) is a word that cannot be used as an identifier, such as the name of a variable, function, or label – it is “reserved from use”. In the above examples we have used few of them such as if, else, elif, pass and there are more, that we will learn later. So what is the importance of reserved keywords? . | You cannot create a variable name with one of the reserved name. | . ",
+    "url": "/learnpython/conditionals-if-else/#reserved-keywords",
+    "relUrl": "/conditionals-if-else/#reserved-keywords"
+  },"91": {
+    "doc": "Accepting User input",
+    "title": "Accepting User input",
+    "content": "While creating real applications we need to accept input from a user and perform calculations based upon that input. In Python we can use the inbuilt function called input() for that. Let’s try asking some basic informations from a user. ",
+    "url": "/learnpython/accepting-user-input/",
+    "relUrl": "/accepting-user-input/"
+  },"92": {
+    "doc": "Accepting User input",
+    "title": "input() always returns a string",
+    "content": "No matter whether you typed a number or string the default data type of all the inputs are always a string. We can use the explicit type casting if we want to convert it. Let’s prove it from the below example. ",
+    "url": "/learnpython/accepting-user-input/#input-always-returns-a-string",
+    "relUrl": "/accepting-user-input/#input-always-returns-a-string"
+  },"93": {
+    "doc": "Lists",
+    "title": "Lists",
+    "content": "So far we have learned about variable holding one value at a time. But this is not enough to solve real world problems. We can use lists to hold multiple values in it. A List stores a series of items in a particular order. You can access it’s items using index, or using a loop. ",
+    "url": "/learnpython/lists/",
+    "relUrl": "/lists/"
+  },"94": {
+    "doc": "Lists",
+    "title": "Syntax",
+    "content": "x = [1, 2, 3] . ",
+    "url": "/learnpython/lists/#syntax",
+    "relUrl": "/lists/#syntax"
+  },"95": {
+    "doc": "Lists",
+    "title": "Creating a list",
+    "content": " ",
+    "url": "/learnpython/lists/#creating-a-list",
+    "relUrl": "/lists/#creating-a-list"
+  },"96": {
+    "doc": "Lists",
+    "title": "Properties of a list",
+    "content": ". | List items can be of any data type(string, integer, boolean etc) | List is a collection which is ordered | List items are changeable(mutable) | A single List can contain different types of data types(string, integer, boolean) | type() of list is &lt;class 'list'&gt; | . ",
+    "url": "/learnpython/lists/#properties-of-a-list",
+    "relUrl": "/lists/#properties-of-a-list"
+  },"97": {
+    "doc": "Lists",
+    "title": "List items can be of any data type(string, integer, boolean etc)",
+    "content": " ",
+    "url": "/learnpython/lists/#list-items-can-be-of-any-data-typestring-integer-boolean-etc",
+    "relUrl": "/lists/#list-items-can-be-of-any-data-typestring-integer-boolean-etc"
+  },"98": {
+    "doc": "Lists",
+    "title": "List is a collection which is ordered",
+    "content": "Individual items in a list can be accessed with it’s index. ",
+    "url": "/learnpython/lists/#list-is-a-collection-which-is-ordered",
+    "relUrl": "/lists/#list-is-a-collection-which-is-ordered"
+  },"99": {
+    "doc": "Lists",
+    "title": "List items are changeable(mutable)",
+    "content": "We can change the individual items in a list with it’s index. ",
+    "url": "/learnpython/lists/#list-items-are-changeablemutable",
+    "relUrl": "/lists/#list-items-are-changeablemutable"
+  },"100": {
+    "doc": "Lists",
+    "title": "A single List can contain different types of data types(string, integer, boolean)",
+    "content": " ",
+    "url": "/learnpython/lists/#a-single-list-can-contain-different-types-of-data-typesstring-integer-boolean",
+    "relUrl": "/lists/#a-single-list-can-contain-different-types-of-data-typesstring-integer-boolean"
+  },"101": {
+    "doc": "Lists",
+    "title": "type() of list is &lt;class 'list'&gt;",
+    "content": " ",
+    "url": "/learnpython/lists/#type-of-list-is-class-list",
+    "relUrl": "/lists/#type-of-list-is-class-list"
+  },"102": {
+    "doc": "Lists",
+    "title": "len()",
+    "content": "We can use the inbuilt len() method to find the number of items in a list. ",
+    "url": "/learnpython/lists/#len",
+    "relUrl": "/lists/#len"
+  },"103": {
+    "doc": "Adding items to List",
+    "title": "Adding items to List",
+    "content": "We can add items to a list in various ways as listed below. | Insert Items - Insert items to a particular position | Append Items - Adding items to the end of a list | Extend List - Adding items to a list from another list | . ",
+    "url": "/learnpython/add-list-items/",
+    "relUrl": "/add-list-items/"
+  },"104": {
+    "doc": "Adding items to List",
+    "title": "Insert Items",
+    "content": "Insert items to a particular position in the list. Method to use: insert() . ",
+    "url": "/learnpython/add-list-items/#insert-items",
+    "relUrl": "/add-list-items/#insert-items"
+  },"105": {
+    "doc": "Adding items to List",
+    "title": "Append Items",
+    "content": "Append means adding items to the end of a list. Method to use: append() . ",
+    "url": "/learnpython/add-list-items/#append-items",
+    "relUrl": "/add-list-items/#append-items"
+  },"106": {
+    "doc": "Adding items to List",
+    "title": "Extend List",
+    "content": "Extending means we can add items to a list from another list. In this way we can add more than one items at once. Method to use: extend() . ",
+    "url": "/learnpython/add-list-items/#extend-list",
+    "relUrl": "/add-list-items/#extend-list"
+  },"107": {
+    "doc": "Adding items to List",
+    "title": "Join Two Lists",
+    "content": "we can use the + operator to join two lists. ",
+    "url": "/learnpython/add-list-items/#join-two-lists",
+    "relUrl": "/add-list-items/#join-two-lists"
+  },"108": {
+    "doc": "Change list items",
+    "title": "Change List items",
+    "content": "We can change list items in various ways . | Change a single item | Change a range of items | . ",
+    "url": "/learnpython/change-list-items/#change-list-items",
+    "relUrl": "/change-list-items/#change-list-items"
+  },"109": {
+    "doc": "Change list items",
+    "title": "Change a single item",
+    "content": "We can change a single item in the list using it’s index position. ",
+    "url": "/learnpython/change-list-items/#change-a-single-item",
+    "relUrl": "/change-list-items/#change-a-single-item"
+  },"110": {
+    "doc": "Change list items",
+    "title": "Change a range of items",
+    "content": "We can change a range of items in a list using slicing. ",
+    "url": "/learnpython/change-list-items/#change-a-range-of-items",
+    "relUrl": "/change-list-items/#change-a-range-of-items"
+  },"111": {
+    "doc": "Change list items",
+    "title": "What will happen if number of items inserted is different from number of items replaced?",
+    "content": "The length of the list will change. ",
+    "url": "/learnpython/change-list-items/#what-will-happen-if-number-of-items-inserted-is-different-from-number-of-items-replaced",
+    "relUrl": "/change-list-items/#what-will-happen-if-number-of-items-inserted-is-different-from-number-of-items-replaced"
+  },"112": {
+    "doc": "Change list items",
+    "title": "Change list items",
+    "content": " ",
+    "url": "/learnpython/change-list-items/",
+    "relUrl": "/change-list-items/"
+  },"113": {
+    "doc": "Remove list items",
+    "title": "Remove List items",
+    "content": "We can remove list items in various ways. | Remove an item by it’s value | Remove an item by it’s index position | . ",
+    "url": "/learnpython/remove-list-items/#remove-list-items",
+    "relUrl": "/remove-list-items/#remove-list-items"
+  },"114": {
+    "doc": "Remove list items",
+    "title": "Remove an item by it’s value",
+    "content": "What happens if value is not in the list? . Python will throw an error. error . ",
+    "url": "/learnpython/remove-list-items/#remove-an-item-by-its-value",
+    "relUrl": "/remove-list-items/#remove-an-item-by-its-value"
+  },"115": {
+    "doc": "Remove list items",
+    "title": "Remove an item by it’s index position",
+    "content": "This can be done in two ways. | using inbuilt pop() method. | using del keyword. | . ",
+    "url": "/learnpython/remove-list-items/#remove-an-item-by-its-index-position",
+    "relUrl": "/remove-list-items/#remove-an-item-by-its-index-position"
+  },"116": {
+    "doc": "Remove list items",
+    "title": "pop()",
+    "content": "If the specified index doesn’t exist pop() will throw an error. If we do not provide an index position to pop(), It will remove the last item in the list. ",
+    "url": "/learnpython/remove-list-items/#pop",
+    "relUrl": "/remove-list-items/#pop"
+  },"117": {
+    "doc": "Remove list items",
+    "title": "del",
+    "content": "Using del we can either delete a single item in the list or we can delete the entire list from the memory. Delete a single item with del . Delete the entire list del . error . ",
+    "url": "/learnpython/remove-list-items/#del",
+    "relUrl": "/remove-list-items/#del"
+  },"118": {
+    "doc": "Remove list items",
+    "title": "Remove list items",
+    "content": " ",
+    "url": "/learnpython/remove-list-items/",
+    "relUrl": "/remove-list-items/"
+  },"119": {
+    "doc": "Loops",
+    "title": "Loops",
+    "content": "In computer science, a loop is a programming structure that repeats a sequence of instructions until a specific condition is met. ",
+    "url": "/learnpython/loops/",
+    "relUrl": "/loops/"
+  },"120": {
+    "doc": "Loops",
+    "title": "In Python we have 2 kind of loops",
+    "content": ". | while loop | for loop | . ",
+    "url": "/learnpython/loops/#in-python-we-have-2-kind-of-loops",
+    "relUrl": "/loops/#in-python-we-have-2-kind-of-loops"
+  },"121": {
+    "doc": "Loops",
+    "title": "While loop",
+    "content": "A while loop is executed as long as a condition is True. Syntax . while(boolean condition): # statements to be executed if condition is true . ",
+    "url": "/learnpython/loops/#while-loop",
+    "relUrl": "/loops/#while-loop"
+  },"122": {
+    "doc": "Loops",
+    "title": "for loop",
+    "content": "We can use for loop to iterate over a sequence of items such as (strings, lists, tuples, dict etc). We can Loop over strings like this . ",
+    "url": "/learnpython/loops/#for-loop",
+    "relUrl": "/loops/#for-loop"
+  },"123": {
+    "doc": "Loops",
+    "title": "range() Function",
+    "content": "We can use the this inbuilt range() function to loop through a block of code specified number of times. It has 3 parameters using that we can customise the output. All the parameters are integers. Syntax . for x in range(start, stop, step): print(x) . ",
+    "url": "/learnpython/loops/#range-function",
+    "relUrl": "/loops/#range-function"
+  },"124": {
+    "doc": "Break, Continue",
+    "title": "Break, Continue",
+    "content": " ",
+    "url": "/learnpython/break-continue/",
+    "relUrl": "/break-continue/"
+  },"125": {
+    "doc": "Break, Continue",
+    "title": "Break statement",
+    "content": "break statement is used to exit from a loop before it has finished it’s iteration. It can be used with both while loop and for loop. ",
+    "url": "/learnpython/break-continue/#break-statement",
+    "relUrl": "/break-continue/#break-statement"
+  },"126": {
+    "doc": "Break, Continue",
+    "title": "Continue statement",
+    "content": "continue statement is used to stop the current iteration of a loop. It can be used with both while loop and for loop. ",
+    "url": "/learnpython/break-continue/#continue-statement",
+    "relUrl": "/break-continue/#continue-statement"
+  },"127": {
+    "doc": "else, pass in loops",
+    "title": "else, pass in loops",
+    "content": " ",
+    "url": "/learnpython/else-pass-in-loops/",
+    "relUrl": "/else-pass-in-loops/"
+  },"128": {
+    "doc": "else, pass in loops",
+    "title": "else",
+    "content": "We can use else in loops too, it will be executed when the loops finishes it’s execution. ",
+    "url": "/learnpython/else-pass-in-loops/#else",
+    "relUrl": "/else-pass-in-loops/#else"
+  },"129": {
+    "doc": "else, pass in loops",
+    "title": "pass",
+    "content": "For some reasons if we need to skip the content of the loop, we can use the pass statement like we used in if else . ",
+    "url": "/learnpython/else-pass-in-loops/#pass",
+    "relUrl": "/else-pass-in-loops/#pass"
+  },"130": {
+    "doc": "nested loops, infinite loops",
+    "title": "Nested loops",
+    "content": "In python we can have one loop inside another loop. Such kinds of loops are called nested loops. Example: printing multiplication table with nested for loops . ",
+    "url": "/learnpython/nested-loops-infinite-loops/#nested-loops",
+    "relUrl": "/nested-loops-infinite-loops/#nested-loops"
+  },"131": {
+    "doc": "nested loops, infinite loops",
+    "title": "Infinite loops",
+    "content": "A loop which runs forever are called inifinite loops. It will make our system crash as the program never finishes. We must be very careful while dealing with loops so that we can avoid this situation. warning, it might crash your system . ",
+    "url": "/learnpython/nested-loops-infinite-loops/#infinite-loops",
+    "relUrl": "/nested-loops-infinite-loops/#infinite-loops"
+  },"132": {
+    "doc": "nested loops, infinite loops",
+    "title": "nested loops, infinite loops",
+    "content": " ",
+    "url": "/learnpython/nested-loops-infinite-loops/",
+    "relUrl": "/nested-loops-infinite-loops/"
+  },"133": {
+    "doc": "More about Lists",
+    "title": "More about Lists",
+    "content": "We need to look some more features of lists now as we have learned concepts like loops now. Let’s see how this can be useful in a list. ",
+    "url": "/learnpython/more-about-lists/",
+    "relUrl": "/more-about-lists/"
+  },"134": {
+    "doc": "More about Lists",
+    "title": "Access each items in a List using loops",
+    "content": " ",
+    "url": "/learnpython/more-about-lists/#access-each-items-in-a-list-using-loops",
+    "relUrl": "/more-about-lists/#access-each-items-in-a-list-using-loops"
+  },"135": {
+    "doc": "More about Lists",
+    "title": "Loop a list using it’s index with range() function",
+    "content": " ",
+    "url": "/learnpython/more-about-lists/#loop-a-list-using-its-index-with-range-function",
+    "relUrl": "/more-about-lists/#loop-a-list-using-its-index-with-range-function"
+  },"136": {
+    "doc": "More about Lists",
+    "title": "Creating a List from a string",
+    "content": " ",
+    "url": "/learnpython/more-about-lists/#creating-a-list-from-a-string",
+    "relUrl": "/more-about-lists/#creating-a-list-from-a-string"
+  },"137": {
+    "doc": "More about Lists",
+    "title": "Create a string from a list",
+    "content": " ",
+    "url": "/learnpython/more-about-lists/#create-a-string-from-a-list",
+    "relUrl": "/more-about-lists/#create-a-string-from-a-list"
+  },"138": {
+    "doc": "List Comprehension",
+    "title": "List Comprehension",
+    "content": "We can use List comprehension to create a new list from an existing list based upon some condition with a shorter one line syntax. Let’s try to understand with an example. ",
+    "url": "/learnpython/list-comprehension/",
+    "relUrl": "/list-comprehension/"
+  },"139": {
+    "doc": "List Comprehension",
+    "title": "Example problem : Select even numbers in a list?",
+    "content": "Using normal for loops . Using List Comprehension . The syntax . newlist = [expression for item in iterable if condition == True] . The original lists remain unchanged, only the new list get updated. ",
+    "url": "/learnpython/list-comprehension/#example-problem--select-even-numbers-in-a-list",
+    "relUrl": "/list-comprehension/#example-problem--select-even-numbers-in-a-list"
+  },"140": {
+    "doc": "List Comprehension",
+    "title": "Let’s see one more example",
+    "content": "Find items in a list which contains character a in it . ",
+    "url": "/learnpython/list-comprehension/#lets-see-one-more-example",
+    "relUrl": "/list-comprehension/#lets-see-one-more-example"
+  },"141": {
+    "doc": "List Comprehension",
+    "title": "Expression",
+    "content": "The expression is the current item in the iteration, which we can manupulate and it will change the final output of the list. ",
+    "url": "/learnpython/list-comprehension/#expression",
+    "relUrl": "/list-comprehension/#expression"
+  },"142": {
+    "doc": "List Comprehension",
+    "title": "Example",
+    "content": "Here the expression part is manipulated as x.upper() so each item in the list will be in uppercase. We can also use if else conditions in list comprehension . ",
+    "url": "/learnpython/list-comprehension/#example",
+    "relUrl": "/list-comprehension/#example"
+  },"143": {
+    "doc": "List Comprehension",
+    "title": "Example : Hide the odd numbers in the list",
+    "content": " ",
+    "url": "/learnpython/list-comprehension/#example--hide-the-odd-numbers-in-the-list",
+    "relUrl": "/list-comprehension/#example--hide-the-odd-numbers-in-the-list"
+  },"144": {
+    "doc": "Sorting Lists",
+    "title": "Sorting List",
+    "content": "A list can be sorted in several ways as listed below. | Alphabetical sorting (Ascending &amp; Descending) | Numerical sorting (Ascending &amp; Descending) | Custom sorting using a function | . ",
+    "url": "/learnpython/sorting-lists/#sorting-list",
+    "relUrl": "/sorting-lists/#sorting-list"
+  },"145": {
+    "doc": "Sorting Lists",
+    "title": "Alphabetic sorting",
+    "content": " ",
+    "url": "/learnpython/sorting-lists/#alphabetic-sorting",
+    "relUrl": "/sorting-lists/#alphabetic-sorting"
+  },"146": {
+    "doc": "Sorting Lists",
+    "title": "Numerical sorting",
+    "content": " ",
+    "url": "/learnpython/sorting-lists/#numerical-sorting",
+    "relUrl": "/sorting-lists/#numerical-sorting"
+  },"147": {
+    "doc": "Sorting Lists",
+    "title": "Custom sorting using a function",
+    "content": "You need to understand what is a function before we can learn this, which we will cover in later sessions. Make sure you understand what is a function before reading this. ",
+    "url": "/learnpython/sorting-lists/#custom-sorting-using-a-function",
+    "relUrl": "/sorting-lists/#custom-sorting-using-a-function"
+  },"148": {
+    "doc": "Sorting Lists",
+    "title": "Sorting Lists",
+    "content": " ",
+    "url": "/learnpython/sorting-lists/",
+    "relUrl": "/sorting-lists/"
+  },"149": {
+    "doc": "Copy Lists",
+    "title": "Copy List",
+    "content": "You cannot copy a list simply by list2 = list1, Why? . Let’s try that and see what happens . list1 and list2 referes to the same location in the memory so any change made to list2 will affects list1 as well. So how to copy a list? Use the inbuilt copy() method or we can use the list() constructor. ",
+    "url": "/learnpython/copy-lists/#copy-list",
+    "relUrl": "/copy-lists/#copy-list"
+  },"150": {
+    "doc": "Copy Lists",
+    "title": "Copy Lists",
+    "content": " ",
+    "url": "/learnpython/copy-lists/",
+    "relUrl": "/copy-lists/"
+  },"151": {
+    "doc": "List Problems",
+    "title": "List Problems",
+    "content": " ",
+    "url": "/learnpython/list-problems/",
+    "relUrl": "/list-problems/"
+  },"152": {
+    "doc": "List Problems",
+    "title": "Problem 1 : Write a program to find the sum of all elements of a list.",
+    "content": "my_list = [1, 5, 6, 4] #Required output = 1 + 5 + 6 + 4 = 16 . ",
+    "url": "/learnpython/list-problems/#problem-1--write-a-program-to-find-the-sum-of-all-elements-of-a-list",
+    "relUrl": "/list-problems/#problem-1--write-a-program-to-find-the-sum-of-all-elements-of-a-list"
+  },"153": {
+    "doc": "List Problems",
+    "title": "Problem 2 : Sort a numerical list without using the inbuilt python methods",
+    "content": "my_list = [1, 5, 26, 1, 3] #Required output = [1, 1, 3, 5, 26] . ",
+    "url": "/learnpython/list-problems/#problem-2--sort-a-numerical-list-without-using-the-inbuilt-python-methods",
+    "relUrl": "/list-problems/#problem-2--sort-a-numerical-list-without-using-the-inbuilt-python-methods"
+  },"154": {
+    "doc": "List Problems",
+    "title": "Problem 3 : From an alphabetic list select words which contains vowels into a new list and diplay",
+    "content": "my_list = [\"hello\", \"hmm\", \"plkjy\", \"how are you\"] #Required output = [\"hello\", \"how are you\"] . ",
+    "url": "/learnpython/list-problems/#problem-3--from-an-alphabetic-list-select-words-which-contains-vowels-into-a-new-list-and-diplay",
+    "relUrl": "/list-problems/#problem-3--from-an-alphabetic-list-select-words-which-contains-vowels-into-a-new-list-and-diplay"
+  },"155": {
+    "doc": "List Problems",
+    "title": "Problem 4 : From an alphabetic list select the unique characters and concatenate them and print as a string",
+    "content": "my_list = [\"hello\", \"hmm\", \"how are you\"] #Required output = helomwaryu . ",
+    "url": "/learnpython/list-problems/#problem-4--from-an-alphabetic-list-select-the-unique-characters-and-concatenate-them-and-print-as-a-string",
+    "relUrl": "/list-problems/#problem-4--from-an-alphabetic-list-select-the-unique-characters-and-concatenate-them-and-print-as-a-string"
+  },"156": {
+    "doc": "Dictionaries",
+    "title": "Dictionaries",
+    "content": "Dictionaries are key value type data structures in Python. So far the lists that we learned has an index to access it’s individual elements in it, the index was a numerical value but here the keys are string. ",
+    "url": "/learnpython/dictionaries/",
+    "relUrl": "/dictionaries/"
+  },"157": {
+    "doc": "Dictionaries",
+    "title": "Syntax",
+    "content": "my_dict = { \"key1\": \"value1\", \"key2\": 23 } . ",
+    "url": "/learnpython/dictionaries/#syntax",
+    "relUrl": "/dictionaries/#syntax"
+  },"158": {
+    "doc": "Dictionaries",
+    "title": "Example",
+    "content": " ",
+    "url": "/learnpython/dictionaries/#example",
+    "relUrl": "/dictionaries/#example"
+  },"159": {
+    "doc": "Dictionaries",
+    "title": "Properties of Dictionary",
+    "content": ". | From Python version 3.7 Dictionaries are ordered. | Changable - We can change, add or remove elements. | Duplicate keys are not allowed. | It can contain any kind of data types(string, int, float, list etc) | The type of a dict is &lt;class 'dict'&gt; | . ",
+    "url": "/learnpython/dictionaries/#properties-of-dictionary",
+    "relUrl": "/dictionaries/#properties-of-dictionary"
+  },"160": {
+    "doc": "Access Dictionary Items",
+    "title": "Access Dictionary Items",
+    "content": "We can access dict items in 2 ways. | Using key name | using get() method | . ",
+    "url": "/learnpython/access-dictionary-items/",
+    "relUrl": "/access-dictionary-items/"
+  },"161": {
+    "doc": "Access Dictionary Items",
+    "title": "What happens if key doesn’t exists",
+    "content": "Python will throw an error . error . ",
+    "url": "/learnpython/access-dictionary-items/#what-happens-if-key-doesnt-exists",
+    "relUrl": "/access-dictionary-items/#what-happens-if-key-doesnt-exists"
+  },"162": {
+    "doc": "Access Dictionary Items",
+    "title": "Print all keys in a dict",
+    "content": "Using the keys() method we can print all the keys in a dict. ",
+    "url": "/learnpython/access-dictionary-items/#print-all-keys-in-a-dict",
+    "relUrl": "/access-dictionary-items/#print-all-keys-in-a-dict"
+  },"163": {
+    "doc": "Access Dictionary Items",
+    "title": "Print all items in a dict",
+    "content": "Using the items() method we can get each items in a dict as a tuple . ",
+    "url": "/learnpython/access-dictionary-items/#print-all-items-in-a-dict",
+    "relUrl": "/access-dictionary-items/#print-all-items-in-a-dict"
+  },"164": {
+    "doc": "Access Dictionary Items",
+    "title": "Check if a keys exists in a dict",
+    "content": "We can use in operator to check if a keys exists in a dict. This is a good practice before accessing dict so that we can avoid the error. ",
+    "url": "/learnpython/access-dictionary-items/#check-if-a-keys-exists-in-a-dict",
+    "relUrl": "/access-dictionary-items/#check-if-a-keys-exists-in-a-dict"
+  },"165": {
+    "doc": "Change Dictionary Items",
+    "title": "Change Dictionary Items",
+    "content": "We can update a dict in two ways. | Update using keys mydict['my_key'] = \"new value\" | Update using the update() method | . ",
+    "url": "/learnpython/change-dictionary-items/",
+    "relUrl": "/change-dictionary-items/"
+  },"166": {
+    "doc": "Change Dictionary Items",
+    "title": "Update using keys",
+    "content": " ",
+    "url": "/learnpython/change-dictionary-items/#update-using-keys",
+    "relUrl": "/change-dictionary-items/#update-using-keys"
+  },"167": {
+    "doc": "Change Dictionary Items",
+    "title": "Update using the update() method",
+    "content": "The arugment to update() method must be a dict as well. ",
+    "url": "/learnpython/change-dictionary-items/#update-using-the-update-method",
+    "relUrl": "/change-dictionary-items/#update-using-the-update-method"
+  },"168": {
+    "doc": "Add Dictionary Items",
+    "title": "Add Dictionary Items",
+    "content": "We can add new item to a dict in two ways . | Using new key index. | Passing non existent keys to update() method | . ",
+    "url": "/learnpython/add-dictionary-items/",
+    "relUrl": "/add-dictionary-items/"
+  },"169": {
+    "doc": "Remove Dictionary Items",
+    "title": "Remove Dictionary Items",
+    "content": "We can remove items from a dict in several ways . | pop() | popitem() | del | clear() | . Let’s see how each of these works with an example . ",
+    "url": "/learnpython/remove-dictionary-items/",
+    "relUrl": "/remove-dictionary-items/"
+  },"170": {
+    "doc": "Remove Dictionary Items",
+    "title": "pop() will remove item with a specified key name",
+    "content": " ",
+    "url": "/learnpython/remove-dictionary-items/#pop-will-remove-item-with-a-specified-key-name",
+    "relUrl": "/remove-dictionary-items/#pop-will-remove-item-with-a-specified-key-name"
+  },"171": {
+    "doc": "Remove Dictionary Items",
+    "title": "popitem() will remove the last inserted item from version 3.7 before that it will be a random item.",
+    "content": " ",
+    "url": "/learnpython/remove-dictionary-items/#popitem-will-remove-the-last-inserted-item-from-version-37-before-that-it-will-be-a-random-item",
+    "relUrl": "/remove-dictionary-items/#popitem-will-remove-the-last-inserted-item-from-version-37-before-that-it-will-be-a-random-item"
+  },"172": {
+    "doc": "Remove Dictionary Items",
+    "title": "del keyword removes item with a specified key. It can be also used to delete the entire dict from memory as well.",
+    "content": " ",
+    "url": "/learnpython/remove-dictionary-items/#del-keyword-removes-item-with-a-specified-key-it-can-be-also-used-to-delete-the-entire-dict-from-memory-as-well",
+    "relUrl": "/remove-dictionary-items/#del-keyword-removes-item-with-a-specified-key-it-can-be-also-used-to-delete-the-entire-dict-from-memory-as-well"
+  },"173": {
+    "doc": "Remove Dictionary Items",
+    "title": "clear() empties the dict",
+    "content": " ",
+    "url": "/learnpython/remove-dictionary-items/#clear-empties-the-dict",
+    "relUrl": "/remove-dictionary-items/#clear-empties-the-dict"
+  },"174": {
+    "doc": "Loop Dictionary Items",
+    "title": "Loop Dictionary Items",
+    "content": "We can loop through a dictionary using a for loop, by using items() method we can get both key and value. ",
+    "url": "/learnpython/loop-dictionary-items/",
+    "relUrl": "/loop-dictionary-items/"
+  },"175": {
+    "doc": "Loop Dictionary Items",
+    "title": "Syntax",
+    "content": "for key, value in mydict.items(): print(key, value) . ",
+    "url": "/learnpython/loop-dictionary-items/#syntax",
+    "relUrl": "/loop-dictionary-items/#syntax"
+  },"176": {
+    "doc": "Loop Dictionary Items",
+    "title": "Looping a List of Dictonaries",
+    "content": "While building a real world application most of the time the data comes in this format in Python. So understanding this is important. ",
+    "url": "/learnpython/loop-dictionary-items/#looping-a-list-of-dictonaries",
+    "relUrl": "/loop-dictionary-items/#looping-a-list-of-dictonaries"
+  },"177": {
+    "doc": "Copy Dictionary",
+    "title": "Copy Dictionary",
+    "content": "We cannot directly copy a dict by dict1 = dict2 because dict2 is pointing to dict1 so changes in dict1 will affect dict2 as well. We can copy a dict in 2 ways. | copy() method | dict() method | . ",
+    "url": "/learnpython/copy-dictionary/",
+    "relUrl": "/copy-dictionary/"
+  },"178": {
+    "doc": "Copy Dictionary",
+    "title": "copy() method",
+    "content": " ",
+    "url": "/learnpython/copy-dictionary/#copy-method",
+    "relUrl": "/copy-dictionary/#copy-method"
+  },"179": {
+    "doc": "Copy Dictionary",
+    "title": "dict() method",
+    "content": " ",
+    "url": "/learnpython/copy-dictionary/#dict-method",
+    "relUrl": "/copy-dictionary/#dict-method"
+  },"180": {
+    "doc": "Nested Dictionaries",
+    "title": "Nested Dictionaries",
+    "content": "A dictionary containing another dictionary is called a nested dictionary. A dictionary can contain any valid Python data types nested upto any level. Understanding nested data structures is really important in building real world applications. ",
+    "url": "/learnpython/nested-dictionaries/",
+    "relUrl": "/nested-dictionaries/"
+  },"181": {
+    "doc": "Dictionary problems",
+    "title": "Dictionary problems",
+    "content": " ",
+    "url": "/learnpython/dictionary-problems/",
+    "relUrl": "/dictionary-problems/"
+  },"182": {
+    "doc": "Dictionary problems",
+    "title": "Problem 1: Convert the below 2 lists into a dictionary using loops.",
+    "content": "keys = ['Ten', 'Twenty', 'Thirty'] values = [10, 20, 30] . Expected output . {'Ten': 10, 'Twenty': 20, 'Thirty': 30} . ",
+    "url": "/learnpython/dictionary-problems/#problem-1-convert-the-below-2-lists-into-a-dictionary-using-loops",
+    "relUrl": "/dictionary-problems/#problem-1-convert-the-below-2-lists-into-a-dictionary-using-loops"
+  },"183": {
+    "doc": "Dictionary problems",
+    "title": "Problem 2: For the given dict swap the keys and values.",
+    "content": "my_dict = { \"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"} . Expected output . {\"value1\": \"key1\", \"value2\" : \"key2\", \"value3\": \"key3\"} . ",
+    "url": "/learnpython/dictionary-problems/#problem-2-for-the-given-dict-swap-the-keys-and-values",
+    "relUrl": "/dictionary-problems/#problem-2-for-the-given-dict-swap-the-keys-and-values"
+  },"184": {
+    "doc": "Functions",
+    "title": "Functions",
+    "content": "So far we have used code which is executed when we run a program and used some of the inbuilt Python functions. Functions are block of code which are executed only when it is called. ",
+    "url": "/learnpython/functions/",
+    "relUrl": "/functions/"
+  },"185": {
+    "doc": "Functions",
+    "title": "Properties of functions",
+    "content": ". | Every function has a unique name | We can pass optional parameters(inputs) to a function | Functions can return a data which can be used in the program | . Functions can be created with the keyword def. Let’s see a sample function below. ",
+    "url": "/learnpython/functions/#properties-of-functions",
+    "relUrl": "/functions/#properties-of-functions"
+  },"186": {
+    "doc": "Functions",
+    "title": "Arguments or function params or just args in Python docs",
+    "content": "The inputs that we pass to a function are generally called arguments. Arguments are optional. You can pass multiple arguments to a function. Let’s see an example function which accepts some arguments. ",
+    "url": "/learnpython/functions/#arguments-or-function-params-or-just-args-in-python-docs",
+    "relUrl": "/functions/#arguments-or-function-params-or-just-args-in-python-docs"
+  },"187": {
+    "doc": "Functions",
+    "title": "Arbitrary Arguments, *args",
+    "content": "If you add a * before the argument name in a function you can pass any number of arguments to that function which can be accessed with it’s index. ",
+    "url": "/learnpython/functions/#arbitrary-arguments-args",
+    "relUrl": "/functions/#arbitrary-arguments-args"
+  },"188": {
+    "doc": "Functions",
+    "title": "Keyword Arguments",
+    "content": "We can also pass named params to a function like key = value . ",
+    "url": "/learnpython/functions/#keyword-arguments",
+    "relUrl": "/functions/#keyword-arguments"
+  },"189": {
+    "doc": "Functions",
+    "title": "Arbitrary Keyword Arguments, **kwargs",
+    "content": "If you use double asterik ** in a function param, you can pass any number of keyword arguments to a function. ",
+    "url": "/learnpython/functions/#arbitrary-keyword-arguments-kwargs",
+    "relUrl": "/functions/#arbitrary-keyword-arguments-kwargs"
+  },"190": {
+    "doc": "Functions",
+    "title": "Default Parameter Value",
+    "content": "We can set a default value for a function param. If we do not pass the value while we call that function, then the default value will be called. ",
+    "url": "/learnpython/functions/#default-parameter-value",
+    "relUrl": "/functions/#default-parameter-value"
+  },"191": {
+    "doc": "Functions",
+    "title": "Function returning a value",
+    "content": "We can use function to return a value using the return keyword. The returned data can be used later in the program. Returned value is not printed unless you print it. ",
+    "url": "/learnpython/functions/#function-returning-a-value",
+    "relUrl": "/functions/#function-returning-a-value"
+  },"192": {
+    "doc": "Functions",
+    "title": "pass in functions",
+    "content": "We can also use pass keyword in functions which can skip the function definition. ",
+    "url": "/learnpython/functions/#pass-in-functions",
+    "relUrl": "/functions/#pass-in-functions"
+  },"193": {
+    "doc": "Recursion",
+    "title": "Recursion",
+    "content": "A function which calls itself is called as recursion or recursive function. It is an important concept in software engineering. Some problems can be solved using recursion only. A recursive function must have some exit condition . A Real world example . https://stackoverflow.com/questions/62489105/php-tree-get-list-of-all-parents-of-child-node/62489714#62489714 . ",
+    "url": "/learnpython/recursion/",
+    "relUrl": "/recursion/"
+  },"194": {
+    "doc": "Tuples",
+    "title": "Tuples",
+    "content": "Tuples are collections which are ordered and immutable. For tuples we use round () brackets. ",
+    "url": "/learnpython/tuples/",
+    "relUrl": "/tuples/"
+  },"195": {
+    "doc": "Tuples",
+    "title": "Syntax",
+    "content": "my_tuple = (1, 2, 3) . ",
+    "url": "/learnpython/tuples/#syntax",
+    "relUrl": "/tuples/#syntax"
+  },"196": {
+    "doc": "Tuples",
+    "title": "Properties of Tuples",
+    "content": ". | Ordered, elements can be accessed using index. | Allows duplicate elements. | Tuples are immutable, once defined it cannot be changed. | Type of tuple is &lt;class 'tuple'&gt; | . ",
+    "url": "/learnpython/tuples/#properties-of-tuples",
+    "relUrl": "/tuples/#properties-of-tuples"
+  },"197": {
+    "doc": "Tuples",
+    "title": "Creating tuple with one item",
+    "content": "If there is only one item in tuple we have to add a , after the first element otherwise it is treated as a string. ",
+    "url": "/learnpython/tuples/#creating-tuple-with-one-item",
+    "relUrl": "/tuples/#creating-tuple-with-one-item"
+  },"198": {
+    "doc": "Tuples",
+    "title": "Change tuple values",
+    "content": "You cannot directly change tuples values. Let’s see what will happen if we try that. ",
+    "url": "/learnpython/tuples/#change-tuple-values",
+    "relUrl": "/tuples/#change-tuple-values"
+  },"199": {
+    "doc": "Tuples",
+    "title": "Workaround for changing a tuple value",
+    "content": "Convert the tuple into a list then append values then convert it back to a tuple again. ",
+    "url": "/learnpython/tuples/#workaround-for-changing-a-tuple-value",
+    "relUrl": "/tuples/#workaround-for-changing-a-tuple-value"
+  },"200": {
+    "doc": "Tuples",
+    "title": "Accessing tuple items",
+    "content": "We can access individual elements using it’s index value and use for loop to print all the items. ",
+    "url": "/learnpython/tuples/#accessing-tuple-items",
+    "relUrl": "/tuples/#accessing-tuple-items"
+  },"201": {
+    "doc": "Sets",
+    "title": "Sets",
+    "content": "Set is a collection which is unorderd and unindexed. Sets are created using curly brackets {} . ",
+    "url": "/learnpython/sets/",
+    "relUrl": "/sets/"
+  },"202": {
+    "doc": "Sets",
+    "title": "Syntax",
+    "content": "my_set = {'Messi', 'Ronaldo', 'Neymer'} . ",
+    "url": "/learnpython/sets/#syntax",
+    "relUrl": "/sets/#syntax"
+  },"203": {
+    "doc": "Sets",
+    "title": "Properties of Sets",
+    "content": ". | Sets are unorderd. | Sets are unchangable. | Sets do not allow duplicates. | Set can contain different data types. | Type of set is &lt;class 'set'&gt; | . ",
+    "url": "/learnpython/sets/#properties-of-sets",
+    "relUrl": "/sets/#properties-of-sets"
+  },"204": {
+    "doc": "Sets",
+    "title": "Access set items",
+    "content": "We cannot access items by index or key but we can loop through items. ",
+    "url": "/learnpython/sets/#access-set-items",
+    "relUrl": "/sets/#access-set-items"
+  },"205": {
+    "doc": "Sets",
+    "title": "Change items",
+    "content": "Once set is created we cannot change it’s items but we can add new items. ",
+    "url": "/learnpython/sets/#change-items",
+    "relUrl": "/sets/#change-items"
+  },"206": {
+    "doc": "Sets",
+    "title": "Remove items",
+    "content": "We can one of these two methods to remove items from a set. | remove() - If the item doesn’t exists on set remove will throw an error. | discard() - If the item doesn’t exists on set discard will not raise an error. | . ",
+    "url": "/learnpython/sets/#remove-items",
+    "relUrl": "/sets/#remove-items"
+  },"207": {
+    "doc": "Lambda",
+    "title": "Lambda",
+    "content": "A lambda is small anonymous function. It can take multiple arguments but can have only one expression. ",
+    "url": "/learnpython/lambda/",
+    "relUrl": "/lambda/"
+  },"208": {
+    "doc": "Lambda",
+    "title": "Syntax",
+    "content": "lambda arguments : expression . The normal functions can return a lambda expression. Which can be executed later when we execute the lambda expression. ",
+    "url": "/learnpython/lambda/#syntax",
+    "relUrl": "/lambda/#syntax"
+  },"209": {
+    "doc": "Object Oriented Programming",
+    "title": "Object Oriented Programming",
+    "content": "This one of the most important concepts in any programming language. We need to understand the below two concepts to start coding in oops way. | Class | Objects | . A class is like a blueprint from which we can create any number of objects. We can relate this to a real world objects like Car. For a class Car we can have multiple objects like . | Swift | Corolla | Polo | . Class Car is just a blueprint only. It can have attributes like . | color | mileage | fuel | . Individual objects like Swift, Corolla &amp; Polo has the actual values for these attributes like a blue swift car has a milege of 14 and it is a petrol car. We can use/create objects only after creating the class. A class can contain methods/functions which can be called/invoked using an object only. Let’s see the actual code example below. ",
+    "url": "/learnpython/object-oriented-programming/",
+    "relUrl": "/object-oriented-programming/"
+  },"210": {
+    "doc": "Object Oriented Programming",
+    "title": "__init__()",
+    "content": "This is a special method inside a class. It is known as a constructor. This method is automatically executed when we create an object. So we can use constructor to initialize values which are required in a class. ",
+    "url": "/learnpython/object-oriented-programming/#__init__",
+    "relUrl": "/object-oriented-programming/#__init__"
+  },"211": {
+    "doc": "Object Oriented Programming",
+    "title": "self",
+    "content": "The self means the current instance or the current object. In the above examples the objects are swift_object and toyota_object. Since objects are created after we create the class, the class variables are represented as self.variablename because we do not have an object name inside a class so we represent it as self. In other programming languages self is also known as this for example in php or javascript. ",
+    "url": "/learnpython/object-oriented-programming/#self",
+    "relUrl": "/object-oriented-programming/#self"
+  },"212": {
+    "doc": "Inheritance",
+    "title": "Inheritance",
+    "content": "Inheritance allows us to create a class which can inherits all the methods and properties of another class. Thus it enables code reusability. | Parent Class - Class from which another class is inheriting | Child Class - Class which inherits from the Parent class, it is also called derived class. | . ",
+    "url": "/learnpython/inheritance/",
+    "relUrl": "/inheritance/"
+  },"213": {
+    "doc": "Inheritance",
+    "title": "Using __init__ in the child class",
+    "content": "We can pass params to the parent class constructor also we can use any extra arguments which we need in the child class as well. In this way we can extend the child class by using parent class features and adding it’s own unique features as well. ",
+    "url": "/learnpython/inheritance/#using-__init__-in-the-child-class",
+    "relUrl": "/inheritance/#using-__init__-in-the-child-class"
+  },"214": {
+    "doc": "Scope",
+    "title": "Scope",
+    "content": "Scope means the life of a variable. We have mainly two scopes. | Global scope | Local scope | . ",
+    "url": "/learnpython/scope/",
+    "relUrl": "/scope/"
+  },"215": {
+    "doc": "Scope",
+    "title": "Global keyword",
+    "content": "global is a keyword which makes the variable global. Changing the global variable using the global keyword in local scope. ",
+    "url": "/learnpython/scope/#global-keyword",
+    "relUrl": "/scope/#global-keyword"
+  },"216": {
+    "doc": "Try Except - Exception Handling",
+    "title": "Try Except - Exception Handling",
+    "content": "When an error occurs or technically we call it an exception, Python will throw an error message and application will exit. But in real applications even if error occurs we need to continue the working of the application. We can use try blocks for handling such kind of situations. There are 3 blocks of code . | try block we can write the code which may run or fail. | except block will handle the error, code inside this block will be executed when an error occurs. | finally This block is optional and will be always executed whether we had an error or not. | . ",
+    "url": "/learnpython/try-except/",
+    "relUrl": "/try-except/"
+  },"217": {
+    "doc": "Try Except - Exception Handling",
+    "title": "Handling specific kind of Exceptions",
+    "content": " ",
+    "url": "/learnpython/try-except/#handling-specific-kind-of-exceptions",
+    "relUrl": "/try-except/#handling-specific-kind-of-exceptions"
+  },"218": {
+    "doc": "Try Except - Exception Handling",
+    "title": "Else",
+    "content": "We can use else in try except block, else will be executed when there are no errors. ",
+    "url": "/learnpython/try-except/#else",
+    "relUrl": "/try-except/#else"
+  },"219": {
+    "doc": "Try Except - Exception Handling",
+    "title": "Finally",
+    "content": "finally block will be always executed regardless of an error happended or not.This can be useful for cleaning up resources and closing objects which might use memory. ",
+    "url": "/learnpython/try-except/#finally",
+    "relUrl": "/try-except/#finally"
+  },"220": {
+    "doc": "Try Except - Exception Handling",
+    "title": "Printing exception messages",
+    "content": " ",
+    "url": "/learnpython/try-except/#printing-exception-messages",
+    "relUrl": "/try-except/#printing-exception-messages"
+  },"221": {
+    "doc": "Try Except - Exception Handling",
+    "title": "Raise an exception",
+    "content": "We can forcefully raise an exception using the raise keyword. ",
+    "url": "/learnpython/try-except/#raise-an-exception",
+    "relUrl": "/try-except/#raise-an-exception"
+  },"222": {
+    "doc": "Modules",
+    "title": "Modules",
+    "content": "As our application grows we need to split code into different files so that it is easier to manage the code and reuse the code. We can include or add code in one file to another using the module concept. There are two kind of modules available, one is user defined modules and other is Python’s inbuilt modules. ",
+    "url": "/learnpython/modules/",
+    "relUrl": "/modules/"
+  },"223": {
+    "doc": "Modules",
+    "title": "Module aliasing with as",
+    "content": "We can use aliasing or another name for a module while we import it. ",
+    "url": "/learnpython/modules/#module-aliasing-with-as",
+    "relUrl": "/modules/#module-aliasing-with-as"
+  },"224": {
+    "doc": "Modules",
+    "title": "Inbuilt modules",
+    "content": "Python provides lot of inbuilt modules for some of the common tasks which are required in our application. Here we lists some of them, there are many more. ",
+    "url": "/learnpython/modules/#inbuilt-modules",
+    "relUrl": "/modules/#inbuilt-modules"
+  },"225": {
+    "doc": "Files",
+    "title": "Files",
+    "content": "File handling is important in any business applications. Python provides inbuilt functions which we can use to create, read, modify and delete files. We have different modes while we open a file as listed below. | mode | description | . | r | Read - Default value. Opens a file for reading, error if the file does not exist | . | a | Append - Opens a file for appending, creates the file if it does not exist | . | w | Write - Opens a file for writing, creates the file if it does not exist | . | x | Create - Creates the specified file, returns an error if the file exists | . ",
+    "url": "/learnpython/files/",
+    "relUrl": "/files/"
+  },"226": {
+    "doc": "Read Files",
+    "title": "Read Files",
+    "content": "We can use the inbuilt open() function to read files. ",
+    "url": "/learnpython/read-files/",
+    "relUrl": "/read-files/"
+  },"227": {
+    "doc": "Read Files",
+    "title": "Read only few characters of the file",
+    "content": " ",
+    "url": "/learnpython/read-files/#read-only-few-characters-of-the-file",
+    "relUrl": "/read-files/#read-only-few-characters-of-the-file"
+  },"228": {
+    "doc": "Read Files",
+    "title": "Read line by line",
+    "content": " ",
+    "url": "/learnpython/read-files/#read-line-by-line",
+    "relUrl": "/read-files/#read-line-by-line"
+  },"229": {
+    "doc": "Read Files",
+    "title": "Read complete file line by line by looping",
+    "content": " ",
+    "url": "/learnpython/read-files/#read-complete-file-line-by-line-by-looping",
+    "relUrl": "/read-files/#read-complete-file-line-by-line-by-looping"
+  },"230": {
+    "doc": "Read Files",
+    "title": "Close files",
+    "content": "We must always close files after we use it otherwise changes made to the file might not be visible sometimes and it will free up the memory as well. ",
+    "url": "/learnpython/read-files/#close-files",
+    "relUrl": "/read-files/#close-files"
+  },"231": {
+    "doc": "Write/Create Files",
+    "title": "Write Files",
+    "content": "We can write contents to a file in two ways. | a - Append mode - will append or add contents to then end of the file. | w - Write mode - will overwrite any existing contents of the file. | . ",
+    "url": "/learnpython/write-files/#write-files",
+    "relUrl": "/write-files/#write-files"
+  },"232": {
+    "doc": "Write/Create Files",
+    "title": "Append mode example",
+    "content": " ",
+    "url": "/learnpython/write-files/#append-mode-example",
+    "relUrl": "/write-files/#append-mode-example"
+  },"233": {
+    "doc": "Write/Create Files",
+    "title": "Write mode example",
+    "content": " ",
+    "url": "/learnpython/write-files/#write-mode-example",
+    "relUrl": "/write-files/#write-mode-example"
+  },"234": {
+    "doc": "Write/Create Files",
+    "title": "Create files",
+    "content": "We can create files using the open() function by using different methods. | mode | description | . | x | Create - will create a file, returns an error if the file exist | . | a | Append - will create a file if the specified file does not exist | . | w | Write - will create a file if the specified file does not exist | . ",
+    "url": "/learnpython/write-files/#create-files",
+    "relUrl": "/write-files/#create-files"
+  },"235": {
+    "doc": "Write/Create Files",
+    "title": "Write/Create Files",
+    "content": " ",
+    "url": "/learnpython/write-files/",
+    "relUrl": "/write-files/"
+  },"236": {
+    "doc": "Delete Files",
+    "title": "Delete Files",
+    "content": "We can make use of the inbuilt os module in Python to delete files. It is always safer to check whether the file exists before deleting it. ",
+    "url": "/learnpython/delete-files/",
+    "relUrl": "/delete-files/"
+  },"237": {
+    "doc": "Delete Files",
+    "title": "Remove a folder",
+    "content": "We can delete only empty folders . import os os.rmdir(\"Downloads\") . ",
+    "url": "/learnpython/delete-files/#remove-a-folder",
+    "relUrl": "/delete-files/#remove-a-folder"
+  },"238": {
+    "doc": "Final Assignment",
+    "title": "Console based contact book",
+    "content": "Create a console based contact book. Here are the required features. A contact must contain these fields : name, phone, email . The console menu must have these options Select an option to start: 1) Add contact 2) List contacts(display all items) 3) Remove contact(delete by phone no) 4) Quit . ",
+    "url": "/learnpython/final-assignment/#console-based-contact-book",
+    "relUrl": "/final-assignment/#console-based-contact-book"
+  },"239": {
+    "doc": "Final Assignment",
+    "title": "Points to note",
+    "content": ". | phone number and email are unique so there might not be duplicates in the contact book. | Make use of the Object oriented concepts and modules, you can use a global variable to store the data. | . ",
+    "url": "/learnpython/final-assignment/#points-to-note",
+    "relUrl": "/final-assignment/#points-to-note"
+  },"240": {
+    "doc": "Final Assignment",
+    "title": "Final Assignment",
+    "content": " ",
+    "url": "/learnpython/final-assignment/",
+    "relUrl": "/final-assignment/"
+  }
+}
