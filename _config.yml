@@ -22,7 +22,7 @@ title: LPM - Python Tutorials
 email: pcktuts@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  This tutorials serves as the study material for the students who learns Python from our online class.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "learnpython" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
